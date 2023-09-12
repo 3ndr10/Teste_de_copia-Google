@@ -8,24 +8,27 @@ body {
 
 /* gerais */
 
-.center-center{
+.flex-center{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flex{
+/* .flex{
     display: flex;
-}
+} */
 
 .flRow{
+    display: flex;
     flex-direction: row;
 }
 
 .flCol{
+    display: flex;
     flex-direction: column;
 }
 
-.flEnd{
+.j-End{
     justify-content: flex-end;
 }
 
@@ -59,6 +62,15 @@ body {
     width: 300px;
 }
 
+.h60{
+    height: 60px;
+}
+
+.h26w26{
+    height: 26px;
+    width: 26px;
+}
+
 .bdRad5{
     border-radius: 5px;
 }
@@ -71,22 +83,17 @@ body {
     padding-top: 200px;
 }
 
-/* cabeçalho */
+.bkgdW{
+    background-color: #f2f2f2;
 
-header {
-    margin-bottom: 10px;
-    height: 60px;
 }
+
+/* cabeçalho */
 
 nav a {
     color: rgb(109, 104, 104);
     margin-right: 10px;
     font-size: 14px;
-}
-
-.img-quadrados {
-    height: 26px;
-    width: 26px;
 }
 
 .login-button {
@@ -113,7 +120,6 @@ p button {
 
 footer {
     width: 100%;
-    background-color: #f2f2f2;
     position: fixed;
     bottom: 0;
 }
@@ -124,7 +130,6 @@ footer p {
 }
 
 footer ul {
-    background-color: #f2f2f2;
     margin-top: 0px;
 }
 
@@ -132,4 +137,3 @@ footer li {
     display: inline-block;
     padding: 10px 5px 10px 5px;
 }
-
